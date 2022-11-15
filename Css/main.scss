@@ -1,1 +1,15 @@
-@import "base"
+@import "base/normalize.scss";
+@import "./utils/variables";
+@import "components/btn";
+@import "./components/boxes";
+@import "./components/imgs";
+@import "./pages/acceuil";
+
+/*Need fixing : ACCEUIL 
+    Colors in general;
+    shadow-boxing on Navbar (goes to the right instead of bottom)
+    Font in general;
+    Icons for Fonctionnement Section
+    Restau_Box is not finished (Text + Heart icon)
+    Footerlogo needs to be black
+*/

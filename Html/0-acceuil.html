@@ -4,39 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
     <script src="https://kit.fontawesome.com/bb6416a0bc.js" crossorigin="anonymous"></script>
     <title>Ohmyfood</title>
 </head>
 <body>
     <nav class ="navmain">
-        <img src="../images/logo/ohmyfood.png" alt="Logo taille réelle Ohmyfood">
+        <img src="../images/logo/ohmyfood.png" alt="Logo taille réelle Ohmyfood" class = "logo_top">
     </nav>
     <div class= "Loc">
         
         <i class="fa-solid fa-location-dot"></i>
-
-        <p>Paris, Belleville</p>
+        
+        <p class = "loc_text">Paris, Belleville</p>
 
     </div>
 
     <section class = "reservation">
 
-        <h1>Réservez le menu qui vous convient</h1>
+        <h1>Réservez le menu qui </h1>
+        <h2> vous convient</h2>
 
-        <p> Découvrez des restaurants d'exception, sélectionnés par nos soins</p>
+        <p class = "under_h1"> Découvrez des restaurants d'exception, </p>
+        <p class = "under_h2">sélectionnés par nos soins.</p>
 
-        <button class = "btn-booking">Explorer nos restaurants</button>
+        <button class = "btn-order">Explorer nos restaurants</button>
 
     </section>
     <section class = "Fonctionnement">
 
         <h2>Fonctionnement</h2>
 
-        <button class = "btn-explain"> <span>1</span> <i class="fa-solid fa-mobile-screen-button"></i> Choisissez un restaurant</button>
+        <button class = "btn-explain"> <i class="fa-regular fa-1 numbers"></i> 
+            <i class="fa-solid fa-mobile-screen-button function_icon"></i> 
+            Choisissez un restaurant</button>
 
-        <button class = "btn-explain"> <span>2</span> <i class="fa-sharp fa-solid fa-list-ul"></i> Choisissez un restaurant</button>
+        <button class = "btn-explain"> <i class="fa-regular fa-2 numbers"></i> 
+            <i class="fa-sharp fa-solid fa-list-ul function_icon"></i> 
+            Composez votre menu</button>
 
-        <button class = "btn-explain"> <span>3</span> <i class="fa-solid fa-store"></i> Choisissez un restaurant</button>
+        <button class = "btn-explain"> <i class="fa-regular fa-3 numbers"></i> 
+            <i class="fa-solid fa-store function_icon"></i> 
+            Dégustez un restaurant</button>
 
     </section>
     <section class = "Restaurants">
@@ -48,9 +57,7 @@
             <img src="../images/restaurants/restau1.jpg" alt = "Photo restaurant gastronomique">
 
             <p class = "RestauName">La palette du goût</p>
-
             <p class = "RestauLoc">Ménilmontant</p>
-
             <i class="fa-regular fa-heart"></i>
 
         </a>
@@ -94,19 +101,13 @@
     </section>
     <footer>
     
-        <img class = "logo_small" src="Inserez ici logo" alt = "Logo Ohmygood en petite taille">
+        <img class = "logo_small" src="../images/logo/ohmyfood.png" alt = "Logo Ohmygood en petite taille">
 
-        <ul class = "ListwithIcon">
+        <ul class = "List_footer">
 
-            <i class="fa-solid fa-utensils"></i>
-            <li><a class="Footer_link" href="#">Proposer un restaurant</a></li>
+            <li><a class="Footer_link" href="#"><i class="fa-solid fa-utensils footer_icon1"></i>Proposer un restaurant</a></li>
 
-            <i class="fa-solid fa-link"></i>
-            <li><a class="Footer_link" href="#">Devenir partenaire</a></li>
-
-        </ul>
-
-        <ul class = "ListNoIcon">
+            <li><a class="Footer_link" href="#"><i class="fa-solid fa-link footer_icon2"></i>Devenir partenaire</a></li>
             
             <li><a class="Footer_link" href="#">Mentions légales</a></li>
 
