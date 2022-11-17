@@ -20,5 +20,27 @@
     .Restauloc {
         margin-bottom : -15px;
     }
-    
+}
+
+.Menu_box {
+    width : 90%;
+    border-radius: 15px;
+    overflow:hidden;
+    box-shadow: 0 0px 6px #c1c1c1;
+    box-sizing: border-box;
+    margin-bottom : 20px;
+    margin-left : 3%;
+    background-color: white;
+    text-decoration: none;
+    .Menu_name {
+        font-weight : bold;
+        padding-left : 3%;
+        font-size : 18px;
+    }
+    .Menu_desc {
+        display : flex;
+        justify-content: space-between;
+        margin-left : 3%;
+        margin-right : 3%;
+    }
 }

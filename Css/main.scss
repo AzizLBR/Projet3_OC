@@ -4,12 +4,22 @@
 @import "./components/boxes";
 @import "./components/imgs";
 @import "./pages/acceuil";
+@import "./pages/restau1";
 
 /*Need fixing : ACCEUIL 
     Colors in general;
-    shadow-boxing on Navbar (goes to the right instead of bottom)
     Font in general;
+    Shadow-boxing on Navbar (goes to the right instead of bottom)
     Icons for Fonctionnement Section
     Restau_Box is not finished (Text + Heart icon)
-    Footerlogo needs to be black
+    Footerlogo needs to be white
+*/
+
+/*Need fixing : Restau1,2,3,4
+    Colors in general;
+    Font in general;
+    Footerlogo needs to be white
+    Integration of MenuNoPhoto and restau1.jpg (Border done, maybe need to expand pixels).
+    Make <h2>plats</h2> an <h3> to make a padding specific to him.
+    Make animations and hovering.
 */
