@@ -14,16 +14,49 @@
     .RestauName {
         font-weight : bold;
         list-style: none;
-        padding-left : 8px;
-        padding-bottom : 10px;  
+        padding-left : 3%;
+        margin-top : 10px;
+        color : black;
     }
-    .Restauloc {
-        margin-bottom : -15px;
+    .RestauLoc {
+        margin-top : -15px;
+        padding-left : 3%;
+        color : black;
+    }
+    .toshow {
+        position : relative;
+        left : 88%;
+        bottom : 21%;
+        font-size : 22px;
+        font-weight : 100;
+        color : black;
+    }
+    
+    .tohide  {
+        display : none;
+        color : red;
+        font-size : 22px;
+        position : relative;
+        left : 88%;
+        bottom : 31%;
+        font-weight : 100;
+    }
+    
+    .Border_right_new {
+        border : 5px solid $tertiary_color;
+        background-color: $tertiary_color;
+        position :absolute;
+        width : 70px;
+        right : 10%;
+        font-weight : 200;
+        text-align : center;
+        color : #139273
     }
 }
 
 .Menu_box {
-    width : 90%;
+    width : 94%;
+    height : 80px;
     border-radius: 15px;
     overflow:hidden;
     box-shadow: 0 0px 6px #c1c1c1;
@@ -38,9 +71,21 @@
         font-size : 18px;
     }
     .Menu_desc {
-        display : flex;
-        justify-content: space-between;
         margin-left : 3%;
         margin-right : 3%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        width : 76%;
+        margin-top : -10px;
+        font-size : 15px;
+    }
+    strong {
+        position : relative;
+        bottom : 33px;
+        left : 86%;
+    }
+    .green_box {
+        display : none;
     }
 }

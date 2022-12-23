@@ -1,0 +1,118 @@
+
+
+.btn-explain:hover {
+    background-color: #f5edff;
+    .function_icon{
+        color : $primary_color;
+    }
+}
+
+.Menu_box:hover {
+    .green_box {
+        display: block;
+        /*ADDDELAY*/height: 160px;
+        position: relative;
+        left: 100%;
+        bottom: 100px;
+        width: 20%;
+        background-color: $tertiary_color;
+        animation: slide-in 1s 1 forwards;
+        .fa-circle-check
+        {
+            color: #f7f7f7;
+            font-size: 25px;
+            position: relative;
+            left: 20px;
+            top: 28px;
+            animation: rotation 1s 1;
+            @keyframes rotation{
+                from {
+                    transform: rotate(-180deg);
+                }
+                to {
+                    transform: rotate(0deg);
+                }
+            }
+        }
+    }
+    .Menu_desc {
+        width : 62%;
+    }
+    strong {
+        left : 66%;
+    }
+}
+
+.Menu_box {
+    animation: printdown 1.5s 1;
+    -webkit-animation: printdown 1.5s 1;
+}
+
+
+
+@keyframes slide-in {
+    100% {
+        transform:  translateX(-100%);
+    }
+}
+
+@keyframes printdown {
+    0% {
+        opacity:0;
+        transform:  translateY(10%);
+        -webkit-transform:  translateY(10%);
+        -moz-transform:  translateY(10%);
+        -ms-transform:  translateY(10%);
+        -o-transform:  translateY(10%);
+}
+    50% {
+        opacity:0.5;
+        transform: translateY(5%)   ;
+        -webkit-transform: translateY(5%)   ;
+        -moz-transform: translateY(5%)   ;
+        -ms-transform: translateY(5%)   ;
+        -o-transform: translateY(5%)   ;
+}
+    100% {
+        opacity:1;
+        transform: translateY(0%)   ;
+
+}
+}
+
+.toshow:hover + .tohide  {
+    display: block;
+    color: red;
+    font-size: 22px;
+    position: relative;
+    left: 88%;
+    bottom: 31%;
+    font-weight: 100;
+    animation:disappear 0.5s 1 forwards, appear 0.5s 1 forwards;
+}
+
+
+@keyframes disappear 
+{
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0.5;
+    }
+    100% {
+        opacity:0;
+    }
+}
+
+@keyframes appear {
+    0% {
+        opacity:0;
+    }
+    50% {
+        opacity:0.5;
+    }
+    100% {
+        opacity:1;
+    }
+}

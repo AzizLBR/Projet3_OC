@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/main.css">
     <script src="https://kit.fontawesome.com/bb6416a0bc.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&family=Roboto" rel="stylesheet">
     <title>Ohmyfood</title>
 </head>
 <body>
+<main>
     <nav class ="navmain">
         <img src="../images/logo/ohmyfood.png" alt="Logo taille réelle Ohmyfood" class = "logo_top">
     </nav>
@@ -22,11 +24,9 @@
 
     <section class = "reservation">
 
-        <h1>Réservez le menu qui </h1>
-        <h2> vous convient</h2>
+        <h1>Réservez le menu qui vous convient</h1>
 
-        <p class = "under_h1"> Découvrez des restaurants d'exception, </p>
-        <p class = "under_h2">sélectionnés par nos soins.</p>
+        <h2>Découvrez des restaurants d'exception, sélectionnés par nos soins.</h2>
 
         <button class = "btn-order">Explorer nos restaurants</button>
 
@@ -35,83 +35,104 @@
 
         <h2>Fonctionnement</h2>
 
-        <button class = "btn-explain"> <i class="fa-regular fa-1 numbers"></i> 
+        <div class = "btns-order">
+        <button class = "btn-explain"><i class="fa-regular fa-1 numbers"></i> 
             <i class="fa-solid fa-mobile-screen-button function_icon"></i> 
             Choisissez un restaurant</button>
-
-        <button class = "btn-explain"> <i class="fa-regular fa-2 numbers"></i> 
+        
+        
+        <button class = "btn-explain"><i class="fa-regular fa-2 numbers"></i>  
             <i class="fa-sharp fa-solid fa-list-ul function_icon"></i> 
             Composez votre menu</button>
-
-        <button class = "btn-explain"> <i class="fa-regular fa-3 numbers"></i> 
+        
+        
+        <button class = "btn-explain"><i class="fa-regular fa-3 numbers"></i>
             <i class="fa-solid fa-store function_icon"></i> 
             Dégustez un restaurant</button>
+        </div>
 
     </section>
     <section class = "Restaurants">
 
         <h2>Restaurants</h2>
-
-        <a class = "RestauBox" href="./page1.html">
+        
+        <div class = "Restau_englobed">
+        <a class = "RestauBox" >
             
             <img src="../images/restaurants/restau1.jpg" alt = "Photo restaurant gastronomique">
 
             <p class = "RestauName">La palette du goût</p>
+
             <p class = "RestauLoc">Ménilmontant</p>
-            <i class="fa-regular fa-heart"></i>
+
+            <i class="fa-regular fa-heart toshow"></i>
+
+            <i class="fa-solid fa-heart tohide"></i>
+            
+            <p class="Border_right_new">Nouveau</p>
 
         </a>
 
-        <a class = "RestauBox" href="./page2.html">
+        <a class = "RestauBox" href = "./2-notench.html">
             
-            <img src="../images/restaurants/restau2.jpg" alt = "Photo restaurant gastronomique">
+            <img src="../images/restaurants/restau2.jpg" alt = "Photo restaurant gastronomique" href="./page2.html">
 
             <p class = "RestauName">La note enchantée</p>
 
             <p class = "RestauLoc">Charonne</p>
-            
-            <i class="fa-regular fa-heart"></i>
+
+            <i class="fa-regular fa-heart toshow"></i>
+
+            <i class="fa-solid fa-heart tohide"></i>
+
+            <p class="Border_right_new">Nouveau</p>
 
         </a>        
         
-        <a class = "RestauBox" href="./page3.html">
+        <a class = "RestauBox" href = "3-alafr.html" >
             
-            <img src="../images/restaurants/restau3.jpg" alt = "Photo restaurant gastronomique">
+            <img src="../images/restaurants/restau3.jpg" alt = "Photo restaurant gastronomique" href="./page3.html">
 
             <p class = "RestauName">À la française</p>
 
             <p class = "RestauLoc">Cité rouge</p>
             
-            <i class="fa-regular fa-heart"></i>
+            <i class="fa-regular fa-heart toshow"></i>
+
+            <i class="fa-solid fa-heart tohide"></i>
 
         </a>        
         
-        <a class = "RestauBox" href="./page4.html">
+        <a class = "RestauBox" href = "4-ledelic.html">
             
-            <img src="../images/restaurants/restau4.jpg" alt = "Photo restaurant gastronomique">
+            <img src="../images/restaurants/restau4.jpg" alt = "Photo restaurant gastronomique" href="./page4.html">
 
             <p class = "RestauName">Le délice des sens</p>
 
             <p class = "RestauLoc">Folie-Méricourt</p>
-            
-            <i class="fa-regular fa-heart"></i>
+
+            <i class="fa-regular fa-heart toshow"></i>
+
+            <i class="fa-solid fa-heart tohide"></i>
 
         </a>
+        </div>
 
     </section>
+</main>
     <footer class ="footer_acceuil">
     
-        <img class = "logo_small" src="../images/logo/ohmyfood.png" alt = "Logo Ohmygood en petite taille">
+        <h2 class = "footer_title">ohmyfood</h2>
 
         <ul class = "List_footer">
 
-            <li><a class="Footer_link" href="#"><i class="fa-solid fa-utensils footer_icon1"></i>Proposer un restaurant</a></li>
+            <li><a class="Footer_link" href="#"><i class="fa-solid fa-utensils footer_icon1"></i><strong>Proposer un restaurant</strong></a></li>
 
-            <li><a class="Footer_link" href="#"><i class="fa-solid fa-link footer_icon2"></i>Devenir partenaire</a></li>
+            <li><a class="Footer_link" href="#"><i class="fa-solid fa-link footer_icon2"></i><strong>Devenir partenaire</strong></a></li>
             
             <li><a class="Footer_link" href="#">Mentions légales</a></li>
 
-            <li><a class="Footer_link" href="#">Contact</a></li>
+            <li><a class="Footer_link" href="mailto:someone@yoursite.com">Contact</a></li>
 
         </ul>
     </footer>
