@@ -40,14 +40,13 @@
     }
     strong {
         left : 66%;
-    }
+}
 }
 
 .Menu_box {
     animation: printdown 1.5s 1;
     -webkit-animation: printdown 1.5s 1;
 }
-
 
 
 @keyframes slide-in {
@@ -80,43 +79,6 @@
 }
 }
 
-.toshow:hover + .tohide  {
-    display: block;
-    color: red;
-    font-size: 22px;
-    position: relative;
-    left: 88%;
-    bottom: 31%;
-    font-weight: 100;
-    animation:disappear 0.5s 1 forwards, appear 0.5s 1 forwards;
-}
-
-
-@keyframes disappear 
-{
-    0% {
-        opacity:1;
-    }
-    50% {
-        opacity:0.5;
-    }
-    100% {
-        opacity:0;
-    }
-}
-
-@keyframes appear {
-    0% {
-        opacity:0;
-    }
-    50% {
-        opacity:0.5;
-    }
-    100% {
-        opacity:1;
-    }
-}
-
 .spinner {
     animation:2.5s 1 spinner forwards;
     animation-play-state: inherit;
@@ -125,7 +87,7 @@
     border: solid 5px #f7f7f7;
     border-bottom-color: #99E2D0;
     border-radius: 50%;
-    position: absolute;
+    position: fixed;
     top: 40%;
     left: 50%;
     transform:translate3d(-50%,-50%,0);

@@ -26,23 +26,26 @@
     .toshow {
         position : relative;
         left : 88%;
-        bottom : 21%;
+        bottom : 190%;
         font-size : 22px;
         font-weight : 100;
         color : black;
     }
     
     .tohide  {
-        display : none;
         color : red;
         font-size : 22px;
-        position : relative;
-        left : 88%;
-        bottom : 31%;
         font-weight : 100;
     }
     
-    .Border_right_new {
+    *:hover > .tohide {
+        display : inline-block;
+        position : relative;
+        left : 80.4%;
+        bottom : 190%;
+    }
+
+    .Border_right_new1, .Border_right_new2  {
         border : 5px solid $tertiary_color;
         background-color: $tertiary_color;
         position :absolute;
