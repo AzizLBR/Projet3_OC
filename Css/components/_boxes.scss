@@ -23,26 +23,25 @@
         padding-left : 3%;
         color : black;
     }
-    .toshow {
+    .heart_icons {
+        display : flex;
         position : relative;
         left : 88%;
-        bottom : 190%;
+        bottom : 25%;
+        width : 10%;
+    }
+    .toshow {
+        position : relative;
+        bottom : 0;
+        left : 0;
         font-size : 22px;
-        font-weight : 100;
         color : black;
     }
     
-    .tohide  {
+    .fa-solid {
+        display : none;
         color : red;
         font-size : 22px;
-        font-weight : 100;
-    }
-    
-    *:hover > .tohide {
-        display : inline-block;
-        position : relative;
-        left : 80.4%;
-        bottom : 190%;
     }
 
     .Border_right_new1, .Border_right_new2  {

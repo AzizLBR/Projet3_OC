@@ -32,11 +32,13 @@
                 width : 45%;
                 height : 250px;
                 margin : 20px 2%;
-                *:hover > .tohide {
+                .heart_icons {
+                    bottom : 20%;
+                }
+                *:hover > .fa-solid {
                     display : inline-block;
                     position : relative;
-                    left : 84.26%;
-                    bottom : 190%;
+                    right : 30%;
                 }
                 .Border_right_new1 {
                     position :relative;
