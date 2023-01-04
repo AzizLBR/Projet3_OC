@@ -28,20 +28,29 @@
         position : relative;
         left : 88%;
         bottom : 25%;
-        width : 10%;
+        width : 25px;
     }
     .toshow {
-        position : relative;
-        bottom : 0;
-        left : 0;
+        width : 100%;
         font-size : 22px;
         color : black;
     }
+
     
     .fa-solid {
         display : none;
-        color : red;
+        background: linear-gradient(to bottom, #a05bdc, #eb73da);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
         font-size : 22px;
+    }
+
+    *:hover > .toshow {
+        display : none;
+    }
+    *:hover > .fa-solid {
+        display : inline-block;
+        width : 98%;
     }
 
     .Border_right_new1, .Border_right_new2  {
