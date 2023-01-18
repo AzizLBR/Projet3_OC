@@ -28,23 +28,22 @@
         position : relative;
         left : 88%;
         bottom : 25%;
-        width : 25px;
+        width : 25px;    
+
     }
     .toshow {
         width : 100%;
         font-size : 22px;
         color : black;
     }
-
-    
     .fa-solid {
         display : none;
         background: linear-gradient(to bottom, #a05bdc, #eb73da);
+        background-clip: text;
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
         font-size : 22px;
     }
-
     *:hover > .toshow {
         display : none;
     }
